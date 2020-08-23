@@ -48,7 +48,7 @@ Table of contents
 body{ font-family: 'Roboto', sans-serif; -webkit-font-smoothing: antialiased;  font-smoothing: antialiased; font-size:14px; color:#6f6f6f; font-weight: 400;line-height: 24px;}
 body, html { height: 100%; -moz-osx-font-smoothing: grayscale;}
 a, a:active, a:focus { color: #6f6f6f; text-decoration: none; }
-a:hover, a:active{color: #ff214f; text-decoration: none;}
+a:hover, a:active{color: #214870; text-decoration: none;}
 a:focus, a:active, button:focus, button:active,.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {outline: none;}
 img {max-width:100%; height:auto; }
 video { background-size: cover; display: table-cell; vertical-align: middle; width: 100%; }
@@ -108,7 +108,7 @@ h6 {font-size:25px; line-height:30px}
 .text-extra-light-gray {color:#b7b7b7}
 .text-light-gray {color:#d6d5d5}
 .text-very-light-gray {color:#ededed}
-.text-deep-pink {color:#ff214f}
+.text-deep-pink {color:#214870}
 
 /* dropcap */
 .first-letter {float: left; font-size: 50px; line-height: auto; margin: 0 20px 0 0; text-align: center; padding: 10px 0; font-weight: 600}
@@ -140,7 +140,7 @@ a.text-link-deep-pink:hover, a.text-link-deep-pink:hover i, a.text-link-deep-pin
 /* hover color */
 a.text-white-hover:hover, a.text-white-hover:focus {color:#fff !important;}
 a.text-black-hover:hover, a.text-black-hover:focus {color:#000 !important;}
-a.text-deep-pink-hover:hover, a.text-deep-pink-hover:focus {color:#ff214f !important;}
+a.text-deep-pink-hover:hover, a.text-deep-pink-hover:focus {color:#214870 !important;}
 a.text-extra-dark-gray-hover:hover {color:#232323 !important;}
 a.text-dark-gray-hover:hover {color:#626262 !important;}
 a.text-extra-medium-gray-hover:hover {color:#757575 !important;}
@@ -253,13 +253,13 @@ a.text-very-light-gray-hover:hover {color:#ededed !important;}
 .bg-medium-light-gray {background-color:#ededed}
 .bg-light-gray {background-color:#f7f7f7}
 .bg-very-light-gray {background-color:#fafafa}
-.bg-deep-pink {background-color:#ff214f;}
+.bg-deep-pink {background-color:#214870;}
 .bg-transparent-white { background-color: rgba(255,255,255,0.3); background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(37%, rgba(255,255,255,0)), color-stop(96%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1))); background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 ); }
 .bg-transparent-black { background-color: rgba(0,0,0,0); background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,0)), color-stop(37%, rgba(0,0,0,0)), color-stop(96%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1))); background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: -o-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: -ms-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 ); }
 .bg-white-opacity { background-color: rgba(255, 255, 255, 0.85); }
 .bg-black-opacity { background-color: rgba(0, 0, 0, 0.85); }
 .bg-black-opacity-light { background-color: rgba(0, 0, 0, 0.5); }
-.bg-deep-pink-opacity {background-color: rgba(255, 33, 79, 0.85);}
+.bg-deep-pink-opacity {background-color: #214870;}
 .bg-charcoal-gray{background-color: #0e0f10;}
 
 /* ===================================
@@ -305,7 +305,7 @@ section.half-section {padding:80px 0;}
 .input-group-btn .btn.btn-large {line-height:2px; height:62px; padding:15px 25px!important}
 .input-group-404 input {height: 62px;}
 
-.input-group .required-error {border: 1px solid #ee2323 !important}
+.input-group .required-error {border: 1px solid #214870 !important}
 .input-group .required-error,.input-group .required-error + .input-group-btn button , .input-group .required-error + .input-group-btn a.btn{border: 1px solid #ee2323 !important}
 
 .input-border-white .input-border-bottom {border-bottom: 1px solid #ffffff; color: #fff; border-top: transparent !important;  border-left: transparent !important;  border-right: transparent !important}
@@ -321,7 +321,7 @@ textarea.input-bg {background-color: #f7f7f7; border-radius: 4px; border: 1px so
 .input-bg::-webkit-input-placeholder {font-weight: 400; font-size: 14px;}
 .input-bg::-moz-placeholder {font-weight:400; font-size: 14px;} 
 .input-bg:-ms-input-placeholder { font-weight: 400; font-size: 14px;}
-.required-error {border: 1px solid #ee2323 !important}
+.required-error {border: 1px solid #214870 !important}
 .input-border-bottom.required-error {border-width: 0 !important; border-bottom-width: 1px !important; border-bottom-color: #ee2323 !important}
 #success-subscribe-newsletter { clear: both; margin: 0 15px 15px; text-align: center; border: 1px solid #1a940a; color: #1a940a;  padding: 2px 0; display: none; font-size: 11px}
 #success-subscribe-newsletter2 { clear: both; margin: 0 15px 15px; text-align: center; border: 1px solid #1a940a; color: #1a940a;  padding: 2px 0; display: none; font-size: 11px}
