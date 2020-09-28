@@ -7001,6 +7001,18 @@ a.likes-count span {
     flex-wrap: wrap;
     width: auto!important;
   }
+
+  .map-desktop{
+      display: none!important;
+  }
+  .map-mobile{
+    display: inherit!important;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    height: 140vh;
+}
 }
 
 @media screen and (max-width: 767px) {
